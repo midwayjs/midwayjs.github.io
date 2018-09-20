@@ -10,7 +10,7 @@
     "cov": "node -v",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:deploy": "node ./scripts/deploy_doc.js"
+    "docs:copy": "./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
