@@ -35,13 +35,13 @@ module.exports = {
               {
                 text: 'Application Management',
                 items: [
-                  { text: 'Pandora.js - Node.js Application Manager', link: '/' },
+                  { text: 'Pandora.js - Node.js Application Manager', link: 'http://midwayjs.org/pandora' },
                 ]
               },
               {
                 text: 'Node.js Monitoring Platform',
                 items: [
-                  { text: 'Sandbox - Privatized node. js monitoring product', link: '#' },
+                  { text: 'Sandbox - Privatized node. js monitoring product', link: 'http://midwayjs.org/sandbox' },
                 ]
               }
             ]
@@ -67,13 +67,13 @@ module.exports = {
               {
                 text: '应用管理',
                 items: [
-                  { text: 'Pandora.js - Node.js 应用管理器', link: '/' },
+                  { text: 'Pandora.js - Node.js 应用管理器', link: 'http://midwayjs.org/pandora' },
                 ]
               },
               {
                 text: '监控产品',
                 items: [
-                  { text: 'Sandbox - 私有化 Node.js 监控产品', link: '#' },
+                  { text: 'Sandbox - 私有化 Node.js 监控产品', link: 'http://midwayjs.org/sandbox' },
                 ]
               }
             ]
