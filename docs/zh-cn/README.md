@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://img.alicdn.com/tfs/TB1HHXPbSzqK1RjSZFjXXblCFXa-224-192.png
-footer: Copyright © 2018-present MidwayJs
+footer: Copyright © 2018-present MidwayJS
 ---
 
 <div class="features">
@@ -29,21 +29,22 @@ footer: Copyright © 2018-present MidwayJs
   <div class="col">
     <dl>
       <dt>Github</dt>
-      <dd><a href="https://github.com/midwayjs" target="_blank">MidwayJs Team</a></dd>
+      <dd><a href="https://github.com/midwayjs" target="_blank">MidwayJS 团队</a></dd>
     </dl>
   </div>
   <div class="col">
     <dl>
-      <dt>Community</dt>
-      <dd><a href="https://github.com/midwayjs/pandora/releases" target="_blank">Change log</a></dd>
-      <dd><a href="https://github.com/midwayjs/pandora/issues" target="_blank">Issues</a></dd>
+      <dt>我们的产品</dt>
+      <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
+      <dd><a href="https://github.com/midwayjs/midway" target="_blank">midway</a></dd>
+      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">sandbox</a></dd>
     </dl>
   </div>
   <div class="col">
     <dl>
       <dt>Links</dt>
-      <dd><a href="http://opensource.alibaba.com/" target="_blank">Alibaba Open Source</a></dd>
-      <dd><a href="http://taobaofed.org/" target="_blank">Taobao FED</a></dd>
+      <dd><a href="http://opensource.alibaba.com/" target="_blank">Alibaba 开源</a></dd>
+      <dd><a href="http://taobaofed.org/" target="_blank">Taobao FED 博客</a></dd>
       <dd><a href="http://www.typescriptlang.org/" target="_blank">TypeScript</a></dd>
     </dl>
   </div>

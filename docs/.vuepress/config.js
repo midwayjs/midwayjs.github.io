@@ -4,18 +4,18 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'Alibaba Taobao MidwayJs Team',
+      title: 'Alibaba Taobao MidwayJS Team',
       description: 'Play node.js and change the world, join us!'
     },
     '/zh-cn/': {
       lang: 'zh-CN',
-      title: 'Alibaba Taobao MidwayJs Team',
+      title: 'Alibaba Taobao MidwayJS Team',
       description: 'Play node.js and change the world, join us!'
     }
   },
   themeConfig: {
     lang: 'zh-CN',
-    repo: 'midwayjs',
+    repo: 'MidwayJS',
     search: false,
     locales: {
       '/': {
@@ -24,7 +24,7 @@ module.exports = {
         nav: [
           { text: 'Home', link: '/' },
           {
-            text: 'MidwayJs Products',
+            text: 'MidwayJS Products',
             items: [
               {
                 text: 'Web Framework',
@@ -56,7 +56,7 @@ module.exports = {
         nav: [
           { text: '首页', link: '/zh-cn/' },
           {
-            text: 'MidwayJs 系列产品',
+            text: 'MidwayJS 系列产品',
             items: [
               {
                 text: '框架',

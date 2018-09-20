@@ -8,8 +8,8 @@
   },
   "scripts": {
     "cov": "node -v",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "deploy": "vuepress build docs && npm run docs:copy",
     "docs:copy": "./scripts/deploy.sh"
   },
   "repository": {

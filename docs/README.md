@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://img.alicdn.com/tfs/TB1HHXPbSzqK1RjSZFjXXblCFXa-224-192.png
-footer: Copyright © 2018-present MidwayJs
+footer: Copyright © 2018-present MidwayJS
 ---
 
 <div class="features">
@@ -29,14 +29,15 @@ footer: Copyright © 2018-present MidwayJs
   <div class="col">
     <dl>
       <dt>Github</dt>
-      <dd><a href="https://github.com/midwayjs" target="_blank">MidwayJs Team</a></dd>
+      <dd><a href="https://github.com/midwayjs" target="_blank">MidwayJS Team</a></dd>
     </dl>
   </div>
   <div class="col">
     <dl>
-      <dt>Community</dt>
-      <dd><a href="https://github.com/midwayjs/pandora/releases" target="_blank">Change log</a></dd>
-      <dd><a href="https://github.com/midwayjs/pandora/issues" target="_blank">Issues</a></dd>
+      <dt>Products</dt>
+      <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
+      <dd><a href="https://github.com/midwayjs/midway" target="_blank">midway</a></dd>
+      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">sandbox</a></dd>
     </dl>
   </div>
   <div class="col">
