@@ -1,3 +1,3 @@
 #! /usr/bin/env bash
 
-cp ./docs/.vuepress/dist/* ./
+cp -R ./docs/.vuepress/dist/* ./
