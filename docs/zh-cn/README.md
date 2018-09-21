@@ -36,8 +36,8 @@ footer: Copyright © 2018-present MidwayJS
     <dl>
       <dt>我们的产品</dt>
       <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
-      <dd><a href="https://github.com/midwayjs/midway" target="_blank">midway</a></dd>
-      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">sandbox</a></dd>
+      <dd><a href="https://github.com/midwayjs/midway" target="_blank">Midway</a></dd>
+      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">Sandbox</a></dd>
     </dl>
   </div>
   <div class="col">
