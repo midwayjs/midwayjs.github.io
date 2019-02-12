@@ -1,9 +1,12 @@
 ---
 home: true
 heroImage: https://img.alicdn.com/tfs/TB1HHXPbSzqK1RjSZFjXXblCFXa-224-192.png
-footer: Copyright © 2018-present MidwayJS
+footer: Copyright © 2019-present MidwayJS
 ---
 
+<div class="feat-title">
+<h1>产品和工具</h1>
+</div>
 <div class="features">
   <div class="feature">
     <a href="/pandora">
@@ -23,6 +26,12 @@ footer: Copyright © 2018-present MidwayJS
       <p>Sandbox 是一个 Node.js 应用监控平台，它可以让应用私有化部署在自己的环境中，结合数据源产生全方位的应用报表。(即将推出。。。)</p>
     </a>
   </div>
+  <div class="feature">
+      <a href="/injection">
+        <h2>Injection</h2>
+        <p>Injection 是一个在 Midway 框架中使用的 IoC 容器，它也可以独立使用，结合不同的应用场景带来不同的开发体验。</p>
+      </a>
+    </div>
 </div>
 
 <div class="footer-container">
@@ -38,6 +47,7 @@ footer: Copyright © 2018-present MidwayJS
       <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
       <dd><a href="https://github.com/midwayjs/midway" target="_blank">Midway</a></dd>
       <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">Sandbox</a></dd>
+      <dd><a href="https://github.com/midwayjs/injection" target="_blank">Injection</a></dd>
     </dl>
   </div>
   <div class="col">

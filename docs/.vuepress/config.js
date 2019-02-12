@@ -43,6 +43,12 @@ module.exports = {
                 items: [
                   { text: 'Sandbox - Privatized node. js monitoring product', link: 'http://midwayjs.org/sandbox' },
                 ]
+              },
+              {
+                text: 'Node.js Injection Module',
+                items: [
+                  { text: 'Injection - Use IoC in your Node.js application', link: 'http://midwayjs.org/injection' },
+                ]
               }
             ]
           }
@@ -59,21 +65,27 @@ module.exports = {
             text: 'MidwayJS 系列产品',
             items: [
               {
-                text: '框架',
+                text: 'Web 框架',
                 items: [
                   { text: 'Midway - 面向未来的 Web 全栈框架', link: 'http://midwayjs.org/midway' },
                 ]
               },
               {
-                text: '应用管理',
+                text: '应用管理工具',
                 items: [
                   { text: 'Pandora.js - Node.js 应用管理器', link: 'http://midwayjs.org/pandora' },
                 ]
               },
               {
-                text: '监控产品',
+                text: '私有化监控产品',
                 items: [
                   { text: 'Sandbox - 私有化 Node.js 监控产品', link: 'http://midwayjs.org/sandbox' },
+                ]
+              },
+              {
+                text: 'Node.js 依赖注入模块',
+                items: [
+                  { text: 'Injection - 让你的应用用上 IoC，体验依赖注入的感觉', link: 'http://midwayjs.org/injection' },
                 ]
               }
             ]
