@@ -1,9 +1,12 @@
 ---
 home: true
 heroImage: https://img.alicdn.com/tfs/TB1HHXPbSzqK1RjSZFjXXblCFXa-224-192.png
-footer: Copyright © 2018-present MidwayJS
+footer: Copyright © 2019-present MidwayJS
 ---
 
+<div class="feat-title">
+<h1>Product & Tool</h1>
+</div>
 <div class="features">
   <div class="feature">
     <a href="/pandora">
@@ -23,6 +26,12 @@ footer: Copyright © 2018-present MidwayJS
       <p>Sandbox is a Node.js application monitoring platform, which allows the application to be deployed in its own environment, combined with the data source to generate a comprehensive application report.(Coming Soon...)</p>
     </a>
   </div>
+  <div class="feature">
+    <a href="/injection">
+      <h2>Injection</h2>
+      <p>Injection is a powerful inversion of control container that is widely used in the midway framework and brings good user experience.</p>
+    </a>
+  </div>
 </div>
 
 <div class="footer-container">
@@ -38,6 +47,7 @@ footer: Copyright © 2018-present MidwayJS
       <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
       <dd><a href="https://github.com/midwayjs/midway" target="_blank">Midway</a></dd>
       <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">Sandbox</a></dd>
+      <dd><a href="https://github.com/midwayjs/injection" target="_blank">Injection</a></dd>
     </dl>
   </div>
   <div class="col">
