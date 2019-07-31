@@ -41,7 +41,7 @@ module.exports = {
               {
                 text: 'Node.js Monitoring Platform',
                 items: [
-                  { text: 'Sandbox - Privatized node. js monitoring product', link: 'http://midwayjs.org/sandbox' },
+                  { text: 'Sandbox - Privatized node. js monitoring product', link: 'https://github.com/midwayjs/sandbox-docker' },
                 ]
               },
               {
@@ -79,7 +79,7 @@ module.exports = {
               {
                 text: '私有化监控产品',
                 items: [
-                  { text: 'Sandbox - 私有化 Node.js 监控产品', link: 'http://midwayjs.org/sandbox' },
+                  { text: 'Sandbox - 私有化 Node.js 监控产品', link: 'https://github.com/midwayjs/sandbox-docker' },
                 ]
               },
               {

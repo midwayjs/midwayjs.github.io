@@ -46,7 +46,7 @@ footer: Copyright © 2019-present MidwayJS
       <dt>Products</dt>
       <dd><a href="https://github.com/midwayjs/pandora" target="_blank">Pandora.js</a></dd>
       <dd><a href="https://github.com/midwayjs/midway" target="_blank">Midway</a></dd>
-      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank">Sandbox</a></dd>
+      <dd><a href="https://github.com/midwayjs/sandbox-docker" target="_blank">Sandbox</a></dd>
       <dd><a href="https://github.com/midwayjs/injection" target="_blank">Injection</a></dd>
     </dl>
   </div>
@@ -65,7 +65,7 @@ footer: Copyright © 2019-present MidwayJS
       <dd><a href="https://zhuanlan.zhihu.com/midwayjs" target="_blank"><img src="https://img.alicdn.com/tfs/TB1a.pvbpzqK1RjSZFvXXcB7VXa-60-60.png"></a></dd>
       <dd><a href="https://github.com/midwayjs/pandora" target="_blank"><img src="https://img.alicdn.com/tfs/TB1.v4hbrPpK1RjSZFFXXa5PpXa-60-60.png"></a></dd>
       <dd><a href="https://github.com/midwayjs/midway" target="_blank"><img src="https://img.alicdn.com/tfs/TB1IgdubpzqK1RjSZFCXXbbxVXa-60-60.png"></a></dd>
-      <dd><a href="https://github.com/midwayjs/sandbox" target="_blank"><img src="https://img.alicdn.com/tfs/TB1kIXybAvoK1RjSZFwXXciCFXa-60-60.png"></a></dd>
+      <dd><a href="https://github.com/midwayjs/sandbox-docker" target="_blank"><img src="https://img.alicdn.com/tfs/TB1kIXybAvoK1RjSZFwXXciCFXa-60-60.png"></a></dd>
     </dl>
   </div>
 </div>

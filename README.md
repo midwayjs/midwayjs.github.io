@@ -6,6 +6,6 @@ npm i
 npm run dev
 # run build
 npm run deploy
-git commi -m "docs:add site"
+git commit -m "docs:add site"
 git push origin master
 ```
