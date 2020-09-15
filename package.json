@@ -1,16 +1,12 @@
 {
   "name": "midwayjs.github.io",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "git-hooks": "^1.1.10",
-    "vuepress": "^0.14.4"
+    "vuepress": "^1.5.4"
   },
   "scripts": {
-    "cov": "node -v",
     "dev": "vuepress dev docs",
-    "deploy": "vuepress build docs && npm run docs:copy",
-    "docs:copy": "./scripts/deploy.sh"
+    "build": "./scripts/build.sh"
   },
   "repository": {
     "type": "git",
