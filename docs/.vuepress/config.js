@@ -26,54 +26,8 @@ module.exports = {
         serviceWorker: {
           updatePopup: true,
         },
+        sidebar: require('./nav'),
         nav: [
-          { text: '首页', link: '/' },
-          { text: '使用文档', link: '/guide' },
-          { text: '依赖注入手册', link: '/ioc' },
-          { text: '工具集', link: '/tool_set' },
-          { text: 'TS 新手指南', link: '/ts_start' },
-          {
-            text: 'API',
-            link: 'http://midwayjs.org/midway/api-reference/globals.html',
-          },
-          {
-            text: 'MidwayJs 系列产品',
-            items: [
-              {
-                text: '框架',
-                items: [
-                  { text: 'Midway - 面向未来的 Web 全栈框架', link: '/' },
-                ],
-              },
-              {
-                text: '应用管理',
-                items: [
-                  {
-                    text: 'Pandora.js - Node.js 应用管理器',
-                    link: 'http://midwayjs.org/pandora/',
-                  },
-                ],
-              },
-              {
-                text: '监控产品',
-                items: [
-                  {
-                    text: 'Sandbox - 私有化 Node.js 监控产品',
-                    link: 'https://github.com/midwayjs/sandbox-docker',
-                  },
-                ],
-              },
-              {
-                text: 'Node.js 依赖注入模块',
-                items: [
-                  {
-                    text: 'Injection - 让你的应用用上 IoC，体验依赖注入的感觉',
-                    link: 'http://midwayjs.org/injection',
-                  },
-                ],
-              },
-            ],
-          },
         ],
       },
       '/en/': {

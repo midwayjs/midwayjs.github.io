@@ -11,7 +11,7 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档</a>
+          <a href="./guide" class="home-link link">使用文档</a>
           <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a>
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
         </nav>
