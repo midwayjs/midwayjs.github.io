@@ -43,13 +43,17 @@
   }
   .home-class
     font-family: Montserrat,microsoft yahei,'微软雅黑';
-    .navbar
-      display: none;
     .theme-default-content
       position: relative;
       padding: 0;
       min-width: 1440px;
       max-width: initial;
+    .sidebar-mask,.navbar,.sidebar
+      display: none;
+    .page
+      padding: 0;
+      .page-nav
+        display: none;
     .home-container
       padding: 0;
       margin: 0;
@@ -89,7 +93,7 @@
     .home-top-title
       position: absolute;
       color: #ffffff;
-      top: 50%;
+      top: 45%;
       left: 0;
       transform: translate(0, -50%);
       .home-top-line
@@ -106,7 +110,7 @@
       position: absolute;
       display: flex;
       left: 0;
-      bottom: 110px;
+      bottom: 125px;
       .home-top-button
         padding: 14px 68px;
         color: #fff;
@@ -120,8 +124,8 @@
     .home-top-right
       position: absolute;
       right: 0;
-      top: 230px;
-      width: 500px;
+      top: 240px;
+      width: 600px;
       height: 320px;
       .home-top-container
         position: absolute;

@@ -1,5 +1,6 @@
 ---
 home: false
+nav: false
 actionText: 快速上手 →
 actionLink: /guide
 footer: Copyright © 2018-present MidwayJs
@@ -39,20 +40,7 @@ pageClass: home-class
     <div class="content-container">
       <div class="home-solution-title">不论你在寻求何种解决方案，</div>
       <div class="home-solution-title">Midway 总能提供给你最适合的那一个。</div>
-      <div class="home-solution-list">
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Restful 接口</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Serverless SSR</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>微服务</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>全栈应用</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Restful 接口</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Serverless SSR</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>微服务</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>全栈应用</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Restful 接口</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>Serverless SSR</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>微服务</div></a>
-        <a class="home-solution button" href=""><span class="buttonScale"></span><div>全栈应用</div></a>
-      </div>
+      <div class="home-solution-list" id="home-solution-container"></div>
       <a class="home-solution-more button" href=""><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
         <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png');">
@@ -116,55 +104,66 @@ pageClass: home-class
   </div>
 </div>
 <script>
-const topWallList = [
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png' },
-  { cover: '//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png' },
+let topWallList = [
+  { cover: '//gw.alicdn.com/imgextra/i4/19999999999999/O1CN01PEPPo02NjasvUe8cc_!!19999999999999-2-tps.png' }, // react
+  { cover: '//gw.alicdn.com/tfs/TB1Cdu2UYr1gK0jSZFDXXb9yVXa-1200-669.png' }, // vue
+  { cover: '//gw.alicdn.com/tfs/TB18DKdjCR26e4jSZFEXXbwuXXa-1200-669.png' }, // rax
+  { cover: '//gw.alicdn.com/tfs/TB11mzgg0Tfau8jSZFwXXX1mVXa-1200-669.png' }, // tablestore
+  { cover: '//gw.alicdn.com/imgextra/i3/19999999999999/O1CN01HLo3Pi2NjasqFIZbi_!!19999999999999-2-tps.png' }, // koa
+  { cover: '//gw.alicdn.com/imgextra/i2/19999999999999/O1CN01LggSYp2NjassPrZeZ_!!19999999999999-2-tps.png' }, // ice
+  { cover: '//gw.alicdn.com/tfs/TB1l2LaU1L2gK0jSZFmXXc7iXXa-1200-669.png' }, // hexo
+  { cover: '//gw.alicdn.com/tfs/TB12AhMjcVl614jSZKPXXaGjpXa-1200-669.png' }, // express
+  { cover: '//gw.alicdn.com/tfs/TB1NtHPh5pE_u4jSZKbXXbCUVXa-1200-669.png' }, // egg
+  { cover: '//gw.alicdn.com/tfs/TB1bonEgsieb18jSZFvXXaI3FXa-1200-669.png' }, // dingtalk
+  { cover: '//gw.alicdn.com/tfs/TB1oq7GfxvbeK8jSZPfXXariXXa-1200-669.png' }, // covid19
+  { cover: '//gw.alicdn.com/tfs/TB1Fh51U.Y1gK0jSZFMXXaWcVXa-1200-669.png' }, // antd
+  { cover: '//gw.alicdn.com/tfs/TB1Ro.miMgP7K4jSZFqXXamhVXa-1200-669.png' }, // typeorm
+  { cover: '//gw.alicdn.com/imgextra/i1/19999999999999/O1CN01FDOJdG2NjasvEbjxX_!!19999999999999-2-tps.png' }, // sequelize
+  { cover: '//gw.alicdn.com/tfs/TB1MM_aU8r0gK0jSZFnXXbRRXXa-1200-669.png' }, // img
+  { cover: '//gw.alicdn.com/tfs/TB1Fuy3UYr1gK0jSZFDXXb9yVXa-1200-669.png' }, // ssr
 ];
+const solutionList = [
+  { title: 'Serverless HTTP API' },
+  { title: 'Serverless 定时器' },
+  { title: 'Serverless 事件触发' },
+  { title: 'RESTFul API' },
+  { title: 'WebSocket' },
+  { title: '微服务' },
+  { title: 'React 一体化' },
+  { title: 'Vue 一体化' },
+  { title: 'ICE 一体化' },
+  { title: 'Rax 一体化' },
+];
+topWallList = topWallList.sort(() => {
+  return Math.random() - 0.5;
+});
 const topWallEle = document.getElementById('top-wall');
+const solutionContainer = document.getElementById('home-solution-container');
 const topWallItemList = [];
 // render top wall
 const lastLineIndex = (Math.ceil(topWallList.length / 5) - 1) * 5;
 topWallList.forEach((item, i) => {
   const topWallItem = document.createElement('a');
   topWallItem.setAttribute('class', 'top-wall-item');
-  topWallItem.setAttribute('href', item.link);
+  topWallItem.setAttribute('href', item.link || 'http://demo.midwayjs.org/');
   topWallItem.setAttribute('target', '_blank');
   const topWallItemInner = document.createElement('div');
   topWallItemInner.setAttribute('class', 'top-wall-item-inner');
   topWallItemInner.style.backgroundImage = `url('${ item.cover }')`;
   topWallItem.appendChild(topWallItemInner);
-  // if (i === 0) {
-  //    topWallItem.style.transformOrigin = 'left top';
-  // } else if (i === 4) {
-  //    topWallItem.style.transformOrigin = 'right top';
-  // } else if (i === lastLineIndex) {
-  //    topWallItem.style.transformOrigin = 'left bottom';
-  // } else if (i === lastLineIndex + 4) {
-  //    topWallItem.style.transformOrigin = 'right bottom';
-  // } else if (i < 4) {
-  //    topWallItem.style.transformOrigin = 'top';
-  // } else if (i > lastLineIndex) {
-  //    topWallItem.style.transformOrigin = 'bottom';
-  // } else if (i % 5 === 0) {
-  //    topWallItem.style.transformOrigin = 'left';
-  // } else if (i % 5 === 4) {
-  //    topWallItem.style.transformOrigin = 'right';
-  // }
   topWallEle.appendChild(topWallItem);
   topWallItemList.push(topWallItem);
   setTimeout(function () {
     topWallItem.style.opacity = 1;
   }, Math.random() * 1000);
+});
+solutionList.forEach((solutionData) => {
+  const solutionItem = document.createElement('a');
+  solutionItem.setAttribute('class', 'home-solution button');
+  solutionItem.setAttribute('href', solutionData.link || 'http://demo.midwayjs.org/');
+  solutionItem.setAttribute('target', '_blank');
+  solutionItem.innerHTML = '<span class="buttonScale"></span><div>' + (solutionData.title) + '</div>';
+  solutionContainer.appendChild(solutionItem);
 });
 // render why img
 const allImg = Array.from(document.querySelectorAll('.home-why-img'));
