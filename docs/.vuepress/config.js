@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  base: '/v2',
+  base: '/',
   locales: {
     '/': {
       lang: 'zh-CN',

@@ -29,7 +29,7 @@ pageClass: home-class
         <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架。</div>
       </div>
       <div class="home-top-button-list">
-        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档（v1）</div></a>
+        <a class="home-top-button button view" href="https://midwayjs.org/midway/v1"><span class="buttonScale"></span><div>访问文档（v1）</div></a>
         <a class="home-top-button button white" href="https://github.com/midwayjs/midway"><span class="buttonScale"></span><div><i class="github"></i>源码</div></a>
       </div>
       <div class="home-top-right">
