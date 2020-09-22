@@ -6,7 +6,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'Midway',
-      description: '面向未来的 Web 全栈应用开发框架',
+      description: '面向未来的云端一体框架',
     },
     '/en/': {
       lang: 'en-US',
@@ -19,7 +19,7 @@ module.exports = {
       '/': {
         lang: 'zh-CN',
         title: 'Midway',
-        description: '面向未来的 Web 全栈应用开发框架',
+        description: '面向未来的云端一体框架',
         repo: 'midwayjs/midway',
         docsDir: 'docs',
         editLinks: true,
