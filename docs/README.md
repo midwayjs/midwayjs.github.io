@@ -12,8 +12,9 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="./guide" class="home-link link">使用文档</a>
-          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a>
+          <a href="https://midwayjs.org/midway/v1" class="home-link link">使用文档（v1)</a>
+          <a href="#" class="home-link link">v2 上线中</a>
+          <!-- <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a> -->
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
         </nav>
         <iframe frameborder="0" scrolling="0" width="114" height="20" title="Star Midway on GitHub" src="https://ghbtns.com/github-btn.html?user=midwayjs&repo=midway&type=star&count=true"></iframe>
@@ -23,11 +24,12 @@ pageClass: home-class
   <div class="home-top">
     <div class="content-container">
       <div class="home-top-title">
-        <div class="home-top-line">面向未来的云端一体 Node.js 框架</div>
-        <div class="home-top-mini-line">Midway 是一个适用于构建大型应用、微服务，无服务程序，小程序后端的 Node.js 框架。</div>
+        <div class="home-top-line">一个面向未来的</div>
+        <div class="home-top-line">云端一体 Node.js 框架</div>
+        <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架。</div>
       </div>
       <div class="home-top-button-list">
-        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档</div></a>
+        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档（v1）</div></a>
         <a class="home-top-button button white" href="https://github.com/midwayjs/midway"><span class="buttonScale"></span><div><i class="github"></i>源码</div></a>
       </div>
       <div class="home-top-right">
@@ -44,10 +46,10 @@ pageClass: home-class
       <a class="home-solution-more button" href=""><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
         <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png');">
-          <a class="ad-middle-button button" href=""><span class="buttonScale"></span><div>点击阅读</div></a>
+          <a class="ad-middle-button button" href="https://zhuanlan.zhihu.com/p/245767106"><span class="buttonScale"></span><div>点击阅读</div></a>
         </div>
-        <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB1uDh1UAL0gK0jSZFAXXcA9pXa-546-274.png');">
-          <a class="ad-middle-button button white" href=""><span class="buttonScale"></span><div>点击报名参会</div></a>
+        <div class="ad-middle-card" style="background-image: url('//img.alicdn.com/tfs/TB1EA7elBBh1e4jSZFhXXcC9VXa-1092-548.jpg');">
+          <a class="ad-middle-button button white" href="https://mudu.tv/watch/7560584"><span class="buttonScale"></span><div>点击报名参会</div></a>
         </div>
       </div>
     </div>
