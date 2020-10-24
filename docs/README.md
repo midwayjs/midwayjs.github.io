@@ -74,7 +74,7 @@ pageClass: home-class
       </div>
       <div class="home-why-use-card right">
         <div class="home-why-card-title">高并发业务稳定高效</div>
-        <div class="home-why-card-content">Midway 在 阿里集团内部已经普通使用，经过了多次大促的洗礼，整个框架已经非常高效和稳定。默认情况下， Midway 在 Web Application 开发时提供了非常多的内置能力，用户无需再去查询其他能力。</div>
+        <div class="home-why-card-content">Midway 在 阿里集团内部已经普遍使用，经过了多次大促的洗礼，整个框架已经非常高效和稳定。默认情况下， Midway 在 Web Application 开发时提供了非常多的内置能力，用户无需再去查询其他能力。</div>
         <div class="home-why-img left" style="background-image: url('//gw.alicdn.com/tfs/TB1xIBqi9R26e4jSZFEXXbwuXXa-922-694.png')"></div>
       </div>
     </div>
