@@ -49,7 +49,7 @@ pageClass: home-class
           <a class="ad-middle-button button white" href="http://d2forum.alibaba-inc.com/" target="_blank"><span class="buttonScale"></span><div>点击报名</div></a>
         </div>
         <div class="ad-middle-card" style="background-image: url('//img.alicdn.com/tfs/TB1EA7elBBh1e4jSZFhXXcC9VXa-1092-548.jpg');">
-          <a class="ad-middle-button button white" href="https://mudu.tv/watch/7560584"><span class="buttonScale"></span><div>点击报名参会</div></a>
+          <a class="ad-middle-button button white" href="https://mudu.tv/watch/7560584"><span class="buttonScale"></span><div>了解更多</div></a>
         </div>
       </div>
     </div>
