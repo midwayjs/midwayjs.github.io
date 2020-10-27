@@ -45,8 +45,8 @@ pageClass: home-class
       <div class="home-solution-list" id="home-solution-container"></div>
       <a class="home-solution-more button" href=""><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
-        <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB1tXBJhAcx_u4jSZFlXXXnUFXa-546-274.png');">
-          <a class="ad-middle-button button" href="https://zhuanlan.zhihu.com/p/245767106"><span class="buttonScale"></span><div>点击阅读</div></a>
+        <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB15dfUnsVl614jSZKPXXaGjpXa-2184-1096.png');">
+          <a class="ad-middle-button button white" href="http://d2forum.alibaba-inc.com/" target="_blank"><span class="buttonScale"></span><div>点击报名</div></a>
         </div>
         <div class="ad-middle-card" style="background-image: url('//img.alicdn.com/tfs/TB1EA7elBBh1e4jSZFhXXcC9VXa-1092-548.jpg');">
           <a class="ad-middle-button button white" href="https://mudu.tv/watch/7560584"><span class="buttonScale"></span><div>点击报名参会</div></a>
